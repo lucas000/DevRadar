@@ -3,7 +3,7 @@ import React from 'react';
 import './global.css';
 import './App.css';
 import './SideBar.css';
-
+import './Main.css';
 function App() {
   return (
     <div id="app">
@@ -39,8 +39,54 @@ function App() {
         <ul>
           <li className="dev-item">
             <header>
-              
+                <img src="https://avatars1.githubusercontent.com/u/14303184?s=460&v=4" alt="Lucas Lourenço"></img>
+                <div className="user-info">
+                  <strong>Lucas Lourenço</strong>
+                  <span>ReactJs, React Native, Node.js</span>
+                </div>
             </header>
+            
+            <p>CTO na @LucasSeat, apaixanador por música sertaneja</p>
+            <a href="https://github.com/lucas000">Acessar perfil do Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+                <img src="https://avatars1.githubusercontent.com/u/14303184?s=460&v=4" alt="Lucas Lourenço"></img>
+                <div className="user-info">
+                  <strong>Lucas Lourenço</strong>
+                  <span>ReactJs, React Native, Node.js</span>
+                </div>
+            </header>
+            
+            <p>CTO na @LucasSeat, apaixanador por música sertaneja</p>
+            <a href="https://github.com/lucas000">Acessar perfil do Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+                <img src="https://avatars1.githubusercontent.com/u/14303184?s=460&v=4" alt="Lucas Lourenço"></img>
+                <div className="user-info">
+                  <strong>Lucas Lourenço</strong>
+                  <span>ReactJs, React Native, Node.js</span>
+                </div>
+            </header>
+            
+            <p>CTO na @LucasSeat, apaixanador por música sertaneja</p>
+            <a href="https://github.com/lucas000">Acessar perfil do Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+                <img src="https://avatars1.githubusercontent.com/u/14303184?s=460&v=4" alt="Lucas Lourenço"></img>
+                <div className="user-info">
+                  <strong>Lucas Lourenço</strong>
+                  <span>ReactJs, React Native, Node.js</span>
+                </div>
+            </header>
+            
+            <p>CTO na @LucasSeat, apaixanador por música sertaneja</p>
+            <a href="https://github.com/lucas000">Acessar perfil do Github</a>
           </li>
         </ul>
       </main>
