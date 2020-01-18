@@ -3,8 +3,14 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const routes = require('./routes');
+const http = require('http');
+const {setupWebsocket} = require('./websocket');
+
 
 const app = express();
+const server = http.Server(app);
+
+setupWebsocket(server);
 
 mongoose.connect(process.env.MONGO_DB_CONNECT_URL, {
     useNewUrlParser: true,
@@ -20,4 +26,4 @@ app.get('/', (req, res) => {
 });
 
 console.log('running');
-app.listen(3333);
+server.listen(3333);
